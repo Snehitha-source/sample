@@ -1,0 +1,18 @@
+var candidate=37; //input test number
+
+var isPrime=true;
+
+var i=2;
+
+while (i<candidate){
+
+    if (candidate%i===0){
+
+        i=candidate;
+
+        isPrime=false;
+    }
+
+    i++;
+
+} 
